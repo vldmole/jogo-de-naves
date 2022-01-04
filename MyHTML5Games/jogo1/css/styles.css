@@ -1,0 +1,147 @@
+@font-face {
+	font-family:Titulo;
+	src:url(../fontes/ANODETONOONE.TTF);
+}
+
+h1 {
+	font-family:Titulo;
+	font-size:40px;
+	color:#603A03;
+}
+
+h2 {
+	font-family:Titulo;
+	font-size:20px;
+	color:#FFF
+}
+
+h3 {
+	font-family:Titulo;
+	font-size:20px;
+	color:#603A03;
+}
+
+body {
+	background-image:url(../imgs/fantasy-background.jpg);
+	overflow-y: hidden; 
+	overflow-x: hidden;
+}
+
+#scoreBoard {
+	width: 450px;
+	height: 50px;
+	position: absolute;
+	left: 5px;
+	top: 590px;
+}
+
+#powerBoard {
+	background-image:url(../imgs/power-3.png);
+	width: 140px;
+	height: 38px;
+	position: absolute;
+	left: 750px;
+	top: 7px;	
+}
+
+#gameContainer{
+	width:950px;
+	height:auto;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#gameBackground {
+	width:950px;
+	height:630px;
+	background-image:url(../imgs/nature-background.jpg);
+	border-color:#FFF;
+	border-style:solid;
+}
+
+#palyerHelicopter {
+
+	width:256px;
+	height:66px;
+	position:absolute;
+	left:8px;
+	top:179px;
+   background-image:url(../imgs/apache-helicopter.png);
+}
+
+.enemy {
+	data-enemy: true;
+}
+
+#enemyHelicopter {
+	width: 256px;
+	height: 66px;
+	position: absolute;
+	left: 689px;
+	top: 253px;
+	background-image:url(../imgs/enemy-helicopter.png);
+}
+
+#enemyTruck {
+	width: 165px;
+	height: 70px;
+	position: absolute;
+	left: 775px;
+	top: 447px;
+	background-image: url(../imgs/enemy-truck.png);
+}
+
+#friend {
+	width: 44px;
+	height: 51px;
+	position: absolute;
+	left: 10px;
+	top: 464px;
+	background-image:url(../imgs/friend.png);
+}
+
+#gameStart {
+	width:350px;
+	height:200px;
+	background-color:#FFF;
+ 	margin-left:auto;
+   margin-right:auto;
+ 	margin-top:100px;
+	text-align:center;
+	padding:10px;
+}
+
+#bullet {
+	width: 50px;
+	height: 8px;
+	position: absolute;
+	background-image: url(../imgs/shot-gun.png);
+}
+
+#explosion {
+	width:15px;
+	height:87px;
+	position:absolute;
+	background-image: url(../imgs/explosion.png);
+}
+
+#friendExplosion {
+	width:44px;
+	height:51px;
+	position:absolute;
+}
+
+
+
+#gameover {
+	width:350px;
+	height:200px;
+	background-color:#FFF;
+ 	margin-left:auto;
+    	margin-right:auto;
+ 	margin-top:100px;
+	text-align:center;
+	padding:10px;
+}

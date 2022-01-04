@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" lang="PT-BR">
+		<title>Resgate</title>
+		<link href="./css/styles.css" rel="stylesheet" type="text/css">
+		<link href="./css/animation.css" rel="stylesheet" type="text/css">
+		<audio src="sons/bullet-sound.mp3" preload="auto" id="bulletFire"></audio>
+		<audio src="sons/explosion-sound.mp3" preload="auto" id="explosionSound"></audio>
+		<audio src="sons/background-music.mp3" preload="auto" id="backgroundMusic"></audio>
+		<audio src="sons/gameover-music.mp3" preload="auto" id="gameoverMusic"></audio>
+		<audio src="sons/lost-music.mp3" preload="auto" id="lostMusic"></audio>
+		<audio src="sons/saved-music.mp3" preload="auto" id="saveMusic"></audio>
+	</head>
+
+	<body>
+
+		<div id="gameContainer" > 
+			<div id="gameBackground" > 
+				<div id="gameStart" onclick="start()"><h1> Resgate </h1>
+					<p>Utilize a tecla W para movimentar o helicóptero para cima, a tecla S para movimentar o helicóptero para baixo e a tecla D para atirar.</p>
+					<p> Clique aqui para iniciar!! </p>
+				</div> 
+			</div> 
+		</div>
+
+		<!--loading scripts-->
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery-collision.min.js"></script>
+		<script type="text/javascript" src="js/control/control.js"></script>
+	</body>
+</html>
